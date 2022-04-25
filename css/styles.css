@@ -1,0 +1,51 @@
+/* HTML Selectors */
+body {
+    background-color: #161032;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 20% 5% 20%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: gray;
+    color:#161032;
+}
+
+img {
+    grid-column: 1/2;
+    margin: 5px;
+}
+
+header h1 {
+    grid-column: 2/3;
+    padding: 10%;
+}
+
+hr {
+    border-color: black;
+}
+main {
+    background-color: gray;
+    color: #161032;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+footer {
+    background-color: gray;
+    color:#161032;
+    padding: 20px;
+    text-align: center;
+}
+
+main ul li a {
+    text-decoration: none;
+    color: #233342;
+}
+
+main ul li a:hover {
+    background-color: gray;
+    color: black;
+}
