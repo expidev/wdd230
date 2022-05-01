@@ -41,12 +41,10 @@ footer {
 }
 
 main ul li a {
-    text-decoration: none;
     font-size: 14pt;
-    color: #233342;
 }
 
 main ul li a:hover {
-    background-color: #999999;
+    background-color: gray;
     color: black;
 }
