@@ -33,6 +33,7 @@ section img {
 section p{
     padding: 15px;
     line-height: 20pt;
+    background-color: #BFBFBF;
     color: black;
     font-weight: lighter;
 }
