@@ -1,0 +1,12 @@
+@media (min-width: 900px) {
+    main{
+        padding: 40px 40px 40px 100px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 55px 0 55px;
+    }
+}
