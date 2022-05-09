@@ -27,6 +27,13 @@ main p{
     font-size: 13pt;
 }
 
+main ul li ul li {
+    font-weight: bold;
+    margin: auto;
+}
+
+
+
 footer{
     background-color: rgb(0, 54, 99);
     text-align: center;
@@ -56,22 +63,21 @@ ul {
 }
 
 /*---------Color Schemes--------*/
-.color-schemes-div1 {
-    background-color: #000000;
+.color01 {
+    background-color: rgb(0, 54, 99);
+    color: #fff;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    margin: 20px;
 }
-.color-schemes-div2 {
-    background-color: #14213D;
-}
-.color-schemes-div3 {
-    background-color: #FCA311;
-}
-.color-schemes-div4  {
-    background-color: #E5E5E5;
-    color: black
-}
-.color-schemes-div5 {
-    background-color: #FFFFFF;
-    color: black
+.color02 {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 20px;
 }
 
 /*---------Typography--------*/
