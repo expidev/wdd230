@@ -4,6 +4,7 @@
 
 body {
     background-color: #fff;
+    font-family: "Lora", Helvetica, Arial, sans-serif;
 }
 
 /*--------Header---------------*/
@@ -12,6 +13,10 @@ header{
     text-align: center;
     padding: 10px 0px 0px 0px;
     color: #fff;
+}
+
+header p{
+    font-size: 13pt;
 }
 
 main{
@@ -27,12 +32,17 @@ main p{
     font-size: 13pt;
 }
 
-main ul li ul li {
-    font-weight: bold;
-    margin: auto;
+main ul{
+    margin: 20px;
 }
 
+main ul li{
+    margin: 10px;
+}
 
+.sublist li{
+    list-style:circle;
+}
 
 footer{
     background-color: rgb(0, 54, 99);
@@ -46,6 +56,7 @@ nav {
     background-color: whitesmoke;
     margin: 0px;
 }
+
 nav ul{
     display: flex;
     flex-direction: column;
@@ -56,7 +67,11 @@ nav a {
 	text-align: center;
     padding: 15px;
 	text-decoration: none;
-	/*font-size: 1em;*/
+}
+
+nav a:hover{
+    background-color: rgb(0, 54, 99);
+    color: black;
 }
 ul {
     list-style: none;
@@ -70,6 +85,7 @@ ul {
     border-color: #000000;
     border-width: 1px;
     margin: 20px;
+    padding: 20px;
 }
 .color02 {
     background-color: white;
@@ -78,12 +94,19 @@ ul {
     border-color: black;
     border-width: 1px;
     margin: 20px;
+    padding: 20px;
 }
 
 /*---------Typography--------*/
-.sample {
-    font-family: 'Noto Serif';
+.typo01 {
+    font-family: 'Lora';
 }
-.p-sample {
-    font-family: 'Montserrat', sans-serif;
+.typo02 {
+    font-family: Helvetica;
+}
+.typo03 {
+    font-family: Arial;
+}
+.typo04 {
+    font-family: sans-serif;
 }
