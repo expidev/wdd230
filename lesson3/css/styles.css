@@ -75,6 +75,7 @@ nav {
 nav ul{
     display: flex;
     flex-direction: column;
+    padding: 0px;
     
 }
 
