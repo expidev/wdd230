@@ -45,7 +45,11 @@
         border: 1px solid;
     }
 
-    nav ul{
+    nav ul li{
+        display: block;
+    }
+
+    nav ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -66,7 +70,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
-    footer div img{
+    footer img{
         grid-column: 1/2;
         margin: 30px;
     }
@@ -74,4 +78,10 @@
     .contact {
         grid-column: 2/7;
     }
+
+    #toggleMenu {
+        display: none;
+    }
+
+
 }
