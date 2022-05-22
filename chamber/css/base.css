@@ -23,6 +23,7 @@ header{
 
 header p{
     font-size: 13pt;
+    text-align: center;
 }
 
 .logo {
@@ -30,11 +31,48 @@ header p{
     height: 50px;
 }
 
-.hero, .callToAction{
+.hero {
+    background-color: whitesmoke;
     width: 100%;
-    height: 300px;
+    height: auto;
     border: 1px solid;
     margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+.hero p {
+    font-size: 12pt;
+    font-weight: lighter;
+    line-height: 25pt;
+    text-align: left;
+}
+
+.callToAction {
+    font-size: 18pt;
+    line-height: 25pt;
+    background-image: linear-gradient(to right, whitesmoke, gray);
+    padding: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid;
+}
+
+button {
+    background-color: rgb(0, 54, 99);
+    color: white;
+    font-size: 18pt;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    border: 1px solid black;
 }
 
 footer{
