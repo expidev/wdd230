@@ -3,33 +3,34 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto;
         gap: 15px;
     }
 
-    .news {
-        grid-column: 2/3;
+    .weather {
+        grid-column: 1/4;
         grid-row: 5/7;
-        border: 1px solid;
     }
 
-    .weather {
-        grid-column: 3/4;
-        grid-row: 5/7;
-        border: 1px solid;
+    .weather picture img {
+        width: 100%;
     }
 
     .hero {
         grid-column: 1/4;
         grid-row: 1/3;
-        border: 1px solid;
+        padding: 0;
+    }
+
+    .hero p{
+        padding: 10px;
     }
 
     .callToAction{
         grid-column: 1/4;
         grid-row: 3/5;
-        border: 1px solid;
         background-blend-mode: white;
+        height: auto;
     }
 
     .callToAction div {
@@ -53,21 +54,32 @@
         border: 1px solid;
     }
 
-    footer {
-        margin-top: 50px;
-    }
-
-    footer .footerBase {
+    .footerBase {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		padding: 10px;
+		margin-bottom: 15px;
     }
 
-    footer div img{
+    .footerImg01{
         grid-column: 1/2;
-        margin-top: 30px;
+		grid-row: 1/3;
+        margin: auto;
     }
 
     .contact {
         grid-column: 2/7;
+        grid-row: 1/3;
+        margin: auto;
     }
+	
+    .footerImg02 {
+		grid-column: 1/7;
+        grid-row: 3/5;
+        margin : auto;
+		width: 100%;
+		height: 90%;
+		
+    }	
 }
