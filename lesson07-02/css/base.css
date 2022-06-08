@@ -39,11 +39,16 @@ picture img {
     filter: blur(0em);
     transition: filter 0.5s;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 picture img[data-src] {
     width: 100%; 
     filter: blur(0.2em);
+}
+
+section p {
+    margin:8px;
 }
 
 footer{

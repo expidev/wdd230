@@ -7,10 +7,12 @@ picture img {
     margin: auto;
     filter: blur(0em);
     transition: filter 0.5s;
+    width: 100%;
 }
 
 picture img[data-src] {
     filter: blur(0.2em);
+    width: 100%;
 }
 
 body {
