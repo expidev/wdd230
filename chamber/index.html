@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,3 +100,107 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The homepage of the Chamber of commerce as a virtual assignment">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Madagascar Chamber Homepage - WDD230 Assignment - Lesson 04</title>
+</head>
+<body>
+    <header>
+        <h1>Madagascar Chamber</h1>
+        <p id="currentDate"></p>
+        <nav>
+            <ul id="menu">
+                <li><a id="toggleMenu">&equiv;</a></li>
+                <li><img class="logo" src="images/logo.webp" alt="logo of Madagascar Chamber"></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#News">News</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="news"></aside>
+        <section class ="hero">
+            <picture>
+                <source srcset="images/hero-large-900w.jpg" media="(min-width: 900px)">
+                <source srcset="images/hero-medium-600w.jpg" media="(min-width: 600px)">
+                <source srcset="images/hero-base-300w.jpg" media="(min-width: 0px)">
+                <img src="images/hero-medium-600w.jpg" alt="hero-picture">
+            </picture>
+            <p>
+                The Madagascar's Chamber of commerce is an organization to gather the networks between companies in the commerce area. Our service concerns majorly about counselling
+                a newcommer or the members for providing a real support or informations such as statistics, legal procedures and trainings to their quest in the business area.
+                We always give you updated news that may pique your interest as well.
+                <a href="#more">Learn more</a>
+            </p>
+        </section>
+        <section class="callToAction">
+            <div>
+                <p>
+                    Discover all the news and the opportunities available now!
+                </p>
+                <button>Go</button>
+            </div>       
+        </section>
+        <aside class="weather">
+            <picture>
+                <source srcset="images/weather-large-900w.jpg" media="(min-width: 900px)">
+                <source srcset="images/weather-medium-600w.jpg" media="(min-width: 600px)">
+                <source srcset="images/weather-base-300w.jpg" media="(min-width: 0px)">
+                <img src="images/weather-medium-600w.jpg" alt="weather-picture">
+            </picture>
+            <div>
+                <p>Temperature: <span id="temperature">40</span> °F</p>
+                <p>Wind speed: <span id="windSpeed">5</span>Mph</p>
+                <p>Wind chill: <span id="windChill"></span>°F</p>
+            </div>
+        </aside>
+        <aside class="companySpotlight01"></aside>
+        <aside class="companySpotlight02"></aside>   
+    </main>
+    
+    <footer>
+        <div class = "footerBase">
+            <img class = "footerImg01" src="images/logo.webp" alt="logo of Madagascar Chamber">
+            <div class = "contact">
+                <h2>Contact information</h2>
+                <ul>
+                    <li>Lot ITS 32 Ter A Beravina Itaosy</li>
+                    <li>(+261) 34 43 230 24</li>
+                    <li>chamber@chambermada.com</li>
+                    <li>Follow us on :</li>
+                    <span class="socialMedia"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a><a href="https://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a></span>
+                </ul>
+            </div>
+            <picture class="footerImg02">
+                <source srcset="images/map-large-747w.jpg" media="(min-width: 900px)">
+                <source srcset="images/map-medium-599w.jpg" media="(min-width: 600px)">
+                <source srcset="images/map-base-590w.jpg" media="(min-width: 0px)">
+                <img src="images/map-medium-599w.jpg" alt="hero-picture">
+            </picture>
+
+        </div>
+        <p>&copy; <span id="currentYear"></span> Madagascar Chamber | Nasandratra HARIVONJY | WDD230 Project | Last Modification: <span id="lastUpdated"></span></p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+>>>>>>> e49ce2f84df86d1161d09e4261ff17a5f6e25235
