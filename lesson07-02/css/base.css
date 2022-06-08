@@ -47,6 +47,10 @@ picture img[data-src] {
     filter: blur(0.2em);
 }
 
+section p {
+    margin:8px;
+}
+
 footer{
     background-color: rgb(0, 54, 99);
     text-align: center;
