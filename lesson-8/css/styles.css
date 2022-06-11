@@ -1,0 +1,36 @@
+body{
+    font-family: "Ubuntu", arial;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+    font-size: larger;
+    padding: 15px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th{
+    font-size: 20pt;
+    padding: 20px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tfoot th {
+    background-color: gray;
+    font-size: 12pt;
+    padding: 5px;
+}

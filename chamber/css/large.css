@@ -3,34 +3,47 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 100px 100px 100px;
+        grid-template-rows: auto auto auto auto auto;
         gap: 15px;
     }
 
     .news {
         grid-column: 1/2;
         grid-row: 1/3;
-        border: 1px solid;
+        border: 1px black solid;
     }
 
     .weather {
         grid-column: 1/2;
-        grid-row: 3/5;
-        border: 1px solid;
+        grid-row: 3/4;
+    }
+
+    .weather picture img {
+        width: 100%;
     }
 
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;
-        border: 1px solid;
-        height: auto;
+    }
+
+    .hero p{
+        padding: 5px;
     }
 
     .callToAction{
         grid-column: 2/4;
-        grid-row: 3/5;
-        border: 1px solid;
-        height: auto;
+        grid-row: 3/4;
+        background-color: whitesmoke;
+    }
+
+    .callToAction div {
+        font-size: 18pt;
+        line-height: 25pt;
+        background-image: linear-gradient(to right, whitesmoke, gray);
+        padding: 10px;
+        margin: auto;
+        text-align: center;
     }
 
     .companySpotlight01{
@@ -41,11 +54,15 @@
 
     .companySpotlight02{
         grid-column: 4/5;
-        grid-row: 3/5;
+        grid-row: 3/4;
         border: 1px solid;
     }
 
-    nav ul{
+    nav ul li{
+        display: block;
+    }
+
+    nav ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -58,20 +75,39 @@
     }
 
     footer {
-        margin-top: 50px;
+		padding-bottom: 100px;
     }
 
-    footer .footerBase {
+    .footerBase {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 300px auto;
     }
 
-    footer div img{
+    .footerImg01{
         grid-column: 1/2;
-        margin: 30px;
+		grid-row: 1/2;
+        margin: auto;
     }
 
     .contact {
-        grid-column: 2/7;
+        grid-column: 2/4;
+		grid-row: 1/2;
+		margin: auto;
     }
+	
+    .footerImg02 {
+		grid-column: 1/4;
+		grid-row: 2/3;
+        margin : auto;
+		width: auto;
+		padding: 7%;
+		
+    }	
+
+    #toggleMenu {
+        display: none;
+    }
+
+
 }

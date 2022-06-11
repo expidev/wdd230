@@ -1,0 +1,32 @@
+picture {
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+picture img {
+    margin: auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+    width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    #gallery {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
