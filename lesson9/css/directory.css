@@ -36,6 +36,7 @@ td {
     padding: 8px;
     font-size: 12pt;
     text-align: center;
+    width: 33%;
   }
 
 td:first-child {

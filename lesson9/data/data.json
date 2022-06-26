@@ -6,7 +6,8 @@
             "phonenumber":"+261356053921",
             "URL":"https://www.bric-broc.com",
             "img":"images/bric-broc.jpg",
-            "membership":"Bronze"
+            "membership":"Bronze",
+            "order":1
         },
         {
             "name": "Relink Madagascar",
@@ -14,7 +15,8 @@
             "phonenumber": "+261356653304",
             "URL":"https://www.relink-mada.com",
             "img":"images/Relink-logo.jpg",
-            "membership":"Gold"
+            "membership":"Gold",
+            "order":2
         },
         {
             "name": "Tia Mizara",

@@ -1,5 +1,4 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const cards = document.querySelector(".cards");
 
 fetch(requestURL)
   .then(function (response) {
@@ -19,17 +18,21 @@ function displayProphets(prophet) {
     let portrait = document.createElement('img');
     let suffix;
     h2.textContent = `${prophet.name} ${prophet.lastname}`; 
-    birthplace.textContent = `Place of birth: ${element.birthplace}`;
-    portrait.setAttribute('src', prophet.imageurl);
-    switch (prophet.order[prophet.order.length - 1]){
+    birthdate.textContent = `Date of birth: ${prophet.birthdate}`
+    birthplace.textContent = `Place of birth: ${prophet.birthplace}`;
+    switch (prophet.order){
       case 1:
         suffix = "st";
         break;
+
       case 2:
-        suffix = 'nd';
+        suffix = "nd";
+        break;
+        
       default:
-        suffix = 'th';
+        suffix = "th";
     }
+    portrait.setAttribute('src', prophet.img);
     portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${suffix} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
     card.appendChild(h2);
@@ -37,5 +40,5 @@ function displayProphets(prophet) {
     card.appendChild(birthplace);
     card.appendChild(portrait);
 
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('#cards').appendChild(card);
 };
