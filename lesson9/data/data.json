@@ -1,0 +1,77 @@
+{
+    "directory": [
+        {
+            "name": "Bric Broc",
+            "address": "IPS 6Ter A Sakambahiny Itaosy",
+            "phonenumber":"+261356053921",
+            "URL":"https://www.bric-broc.com",
+            "img":"images/bric-broc.jpg",
+            "membership":"Bronze"
+        },
+        {
+            "name": "Relink Madagascar",
+            "address": "Lot ITU 25 C Anosivavaka",
+            "phonenumber": "+261356653304",
+            "URL":"https://www.relink-mada.com",
+            "img":"images/Relink-logo.jpg",
+            "membership":"Gold"
+        },
+        {
+            "name": "Tia Mizara",
+            "address":"98 OC Morafeno Toamasina",
+            "phonenumber":"+261355320052",
+            "URL":"https://www.tiamizara.mg",
+            "img":"images/tia-mizara.jpg",
+            "membership":"Bronze"
+        },
+        {
+            "name": "Tamihako",
+            "address":"Lot AV 32 Analamahitsy Cité",
+            "phonenumber":"+26135425213",
+            "URL":"https://www.tamihako.org",
+            "img":"images/tamihako.jpg",
+            "membership": "Nonprofit"
+        },
+        {
+            "name": "Former Access Volunteers",
+            "address": "Lot ISD 10 Tanjombato",
+            "phonenumber": "+26135523021",
+            "URL":"https://www.fav.org",
+            "img":"images/fav.jpg",
+            "membership": "Nonprofit"
+        },
+        {
+            "name": "Facilitators",
+            "address": "Lot ER 25 Mahajanga",
+            "phonenumber": "+261351203252",
+            "URL":"https://www.facilitators.io",
+            "img":"images/facilitators.jpg",
+            "membership":"Gold"
+        },
+        {
+            "name": "Miketrika",
+            "address": "AVI 78 Avenue de l'Indépendance Analakely",
+            "phonenumber":"+261362323025",
+            "URL":"https://www.miketrika.com",
+            "img":"images/miketrika.jpg",
+            "membership":"Silver"
+        },
+        {
+            "name": "WeCC",
+            "address":"Lot RST 98 Ambavahaditokana",
+            "phonenumber":"+261364859235",
+            "URL":"https://www.wecc.com",
+            "img":"images/wecc.jpg",
+            "membership":"Silver"
+        },
+        {
+            "name": "Asako Anio",
+            "address": "Lot AV 25 Tsaralalana",
+            "phonenumber": "+261356512345",
+            "URL":"https://www.asakoanio.org",
+            "img":"images/asako-anio.jpg",
+            "membership":"Nonprofit"
+        }
+    ]
+}
+
