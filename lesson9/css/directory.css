@@ -69,6 +69,7 @@ main {
     padding: 0.5rem;
     background-color: #bbb;
     text-align: center;
+    width: 100%;
 }
 
 .menu button {

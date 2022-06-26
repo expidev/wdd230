@@ -32,7 +32,7 @@ function displayProphets(prophet) {
       default:
         suffix = "th";
     }
-    portrait.setAttribute('src', prophet.img);
+    portrait.setAttribute('src', prophet.imageur1);
     portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${suffix} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
     card.appendChild(h2);
