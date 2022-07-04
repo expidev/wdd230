@@ -1,0 +1,25 @@
+body{
+    font-family: "Ubuntu", arial;
+}
+
+header, footer {
+    background-color: gray;
+    text-align: center;
+    font-size: 15pt;
+    padding: 15px;
+    margin : 15px;
+}
+
+header h1 {
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+section {
+    border: 1px solid black;
+    border-radius:15px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: cornflowerblue;
+}

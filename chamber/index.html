@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The homepage of the Chamber of commerce as a virtual assignment">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
@@ -16,8 +17,10 @@
 </head>
 <body>
     <header>
+        <p id="banner"></p>
         <h1>Madagascar Chamber</h1>
         <p id="currentDate"></p>
+        <p class="visits"></p>
         <nav>
             <ul id="menu">
                 <li><a id="toggleMenu">&equiv;</a></li>
@@ -25,13 +28,12 @@
                 <li><a href="../chamber/index.html">Home</a></li>
                 <li><a href="../lesson07-02/discover.html">Discover</a></li>
                 <li><a href="../lesson9/directory.html">Directory</a></li>
-                <li><a href="#About">About</a></li>
+                <li><a href="../chamber/about.html">About</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <aside class="news"></aside>
         <section class ="hero">
             <picture>
                 <source srcset="images/hero-large-900w.jpg" media="(min-width: 900px)">
@@ -43,7 +45,7 @@
                 The Madagascar's Chamber of commerce is an organization to gather the networks between companies in the commerce area. Our service concerns majorly about counselling
                 a newcommer or the members for providing a real support or informations such as statistics, legal procedures and trainings to their quest in the business area.
                 We always give you updated news that may pique your interest as well.
-                <a href="#more">Learn more</a>
+                <a href="about.html">Learn more</a>
             </p>
         </section>
         <section class="callToAction">
@@ -51,24 +53,26 @@
                 <p>
                     Discover all the news and the opportunities available now!
                 </p>
-                <a href="join.html"><button>Join us Now</button></a>
+                <a href="join.html"><button>Join us</button></a>
             </div>       
         </section>
         <aside class="weather">
-            <picture>
-                <source srcset="images/weather-large-900w.jpg" media="(min-width: 900px)">
-                <source srcset="images/weather-medium-600w.jpg" media="(min-width: 600px)">
-                <source srcset="images/weather-base-300w.jpg" media="(min-width: 0px)">
-                <img src="images/weather-medium-600w.jpg" alt="weather-picture">
-            </picture>
+            <h2>Weather - Antananarivo</h2>
             <div>
-                <p>Temperature: <span id="temperature">40</span> °Farenheit</p>
+                <p>Temperature: <span id="temperature"></span> °Farenheit</p>
+                <figure>
+                    <img src="" alt="" srcset="" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
                 <p>Wind speed: <span id="windSpeed">5</span>Mph</p>
                 <p>Wind chill: <span id="windChill"></span>°F</p>
             </div>
         </aside>
-        <aside class="companySpotlight01"></aside>
-        <aside class="companySpotlight02"></aside>   
+        <div class="spotlight">
+            <aside class="companySpotlight01"></aside>
+            <aside class="companySpotlight02"></aside>
+            <aside class="companySpotlight03"></aside>
+        </div>
     </main>
     
     <footer>
@@ -84,14 +88,13 @@
                     <span class="socialMedia"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a><a href="https://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a></span>
                 </ul>
             </div>
-            <picture class="footerImg02">
-                <source srcset="images/map-large-747w.jpg" media="(min-width: 900px)">
-                <source srcset="images/map-medium-599w.jpg" media="(min-width: 600px)">
-                <source srcset="images/map-base-590w.jpg" media="(min-width: 0px)">
-                <img src="images/map-medium-599w.jpg" alt="hero-picture">
-            </picture>
-
         </div>
+        <picture class="footerImg02">
+            <source srcset="images/map-large-747w.jpg" media="(min-width: 900px)">
+            <source srcset="images/map-medium-599w.jpg" media="(min-width: 600px)">
+            <source srcset="images/map-base-590w.jpg" media="(min-width: 0px)">
+            <img src="images/map-medium-599w.jpg" alt="hero-picture">
+        </picture>
         <p>&copy; <span id="currentYear"></span> Madagascar Chamber | Nasandratra HARIVONJY | WDD230 Project | Last Modification: <span id="lastUpdated"></span></p>
     </footer>
     <script src="js/script.js"></script>

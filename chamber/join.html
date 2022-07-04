@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The homepage of the Chamber of commerce as a virtual assignment">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/form.css">
-    <title>Madagascar Chamber Homepage - WDD230 Assignment - Lesson 04</title>
+    <title>Membership registration - WDD230 Assignment - Lesson 04</title>
 </head>
 <body>
     <header>
+        <p id="banner"></p>
         <h1>Madagascar Chamber</h1>
         <p id="currentDate"></p>
         <nav>
@@ -23,7 +25,7 @@
                 <li><a href="../chamber/index.html">Home</a></li>
                 <li><a href="../lesson07-02/discover.html">Discover</a></li>
                 <li><a href="../lesson9/directory.html">Directory</a></li>
-                <li><a href="#About">About</a></li>
+                <li><a href="../chamber/about.html">About</a></li>
             </ul>
         </nav>
     </header>
@@ -81,17 +83,16 @@
                     <li>(+261) 34 43 230 24</li>
                     <li>chamber@chambermada.com</li>
                     <li>Follow us on :</li>
-                    <li><span class="socialMedia"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a><a href="https://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a></span></li> 
+                    <span class="socialMedia"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a><a href="https://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a></span>
                 </ul>
             </div>
-            <picture class="footerImg02">
-                <source srcset="images/map-large-747w.jpg" media="(min-width: 900px)">
-                <source srcset="images/map-medium-599w.jpg" media="(min-width: 600px)">
-                <source srcset="images/map-base-590w.jpg" media="(min-width: 0px)">
-                <img src="images/map-medium-599w.jpg" alt="hero-picture">
-            </picture>
-
         </div>
+        <picture class="footerImg02">
+            <source srcset="images/map-large-747w.jpg" media="(min-width: 900px)">
+            <source srcset="images/map-medium-599w.jpg" media="(min-width: 600px)">
+            <source srcset="images/map-base-590w.jpg" media="(min-width: 0px)">
+            <img src="images/map-medium-599w.jpg" alt="hero-picture">
+        </picture>
         <p>&copy; <span id="currentYear"></span> Madagascar Chamber | Nasandratra HARIVONJY | WDD230 Project | Last Modification: <span id="lastUpdated"></span></p>
     </footer>
     <script src="js/script.js"></script>

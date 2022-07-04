@@ -73,18 +73,5 @@ if ('IntersectionObserver' in window) {
     });
 };
 
-// Calculate the number of the days that the user visits the site
-const visitsDisplay = document.querySelector(".visits");
-const todayDate = Date.parse(new Date());
 
-let lastVisits = Number(window.localStorage.getItem("lastdate"));
-if (lastVisits !== 0) {
-    let numberDays = parseInt((lastVisits - todayDate)*0.001*(1/86400));
-    visitsDisplay.textContent = `You visit us ${numberDays} days ago`;
-
-}else{
-    visitsDisplay.textContent = "This is your first visit!";
-}
-
-localStorage.setItem("lastdate", todayDate);
 

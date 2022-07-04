@@ -1,8 +1,8 @@
-const requestURL = 'data/data.json';
+const requestURL01 = '../lesson9/data/data.json';
 
 //function to create the grid content
 function grid() {
-    fetch(requestURL).then(function (response) {
+    fetch(requestURL01).then(function (response) {
       return response.json();
     }).then(function (jsonObject) {
       console.table (jsonObject);
@@ -37,7 +37,7 @@ function grid() {
 
 //function to create the list content
 function list() {
-    fetch(requestURL).then(function (response) {
+    fetch(requestURL01).then(function (response) {
       return response.json();
     }).then(function (jsonObject) {
       console.table (jsonObject);

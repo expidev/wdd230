@@ -7,17 +7,45 @@ body {
     font-family: "Lora", Helvetica, Arial, sans-serif;
 }
 
-p{
+p {
     line-height: 20pt;
 }
 
 /*--------Header---------------*/
+
+#banner {
+    text-align: center;
+    font-size: 15pt;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    color: black;
+}
+
+.companySpotlight01 , .companySpotlight02 , .companySpotlight03 {
+    text-align: center;
+    width: 250px;
+    height: 380px;
+    margin: auto;
+}
+
+.spotlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 10px;
+    align-items: center;
+}
+
+.companySpotlight01 img, .companySpotlight02 img , .companySpotlight03 img{
+    width: 60%;
+}
+
+    
 header{
     background-color: rgb(0, 54, 99);
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
     color: #fff;
-    margin-bottom: 50px;
 
 }
 
@@ -26,13 +54,22 @@ header p{
     text-align: center;
 }
 
+main img {
+    box-shadow: 0 0 5px #333;
+}
+
 .logo {
     width: 80px;
     height: 50px;
 }
 
-.hero {
+main {
     background-color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero {
     width: 100%;
     height: auto;
     margin-bottom: 30px;
@@ -41,6 +78,7 @@ header p{
 
 .hero a {
     text-decoration: none;
+    color: darkblue;
 }
 
 .hero a:hover{
@@ -52,39 +90,25 @@ header p{
     font-weight: lighter;
     line-height: 25pt;
     text-align: left;
-    padding: 15px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
 .hero picture img {
     width: 100%;
-    padding: 2px;
 }
 
-.callToAction {
+.callToAction div{
+    font-family: cursive, Arial, Helvetica, sans-serif;
     font-size: 18pt;
     line-height: 25pt;
-    background-image: linear-gradient(to right, whitesmoke, gray);
-    padding: 50px;
-    margin-bottom: 30px;
     text-align: center;
-}
-
-.weather {
-    position: relative;
-}
-
-.weather picture img{
-    width: 100%;
-    height: 300px;
-}
-
-.weather div{
-    position: absolute;
-    bottom: 45%;
-    left: 20%;
+    padding: 50px;
+    border: 1px darkblue dashed;
 }
 
 button {
+    font-family: cursive;
     background-color: rgb(0, 54, 99);
     color: white;
     font-size: 18pt;
@@ -97,16 +121,53 @@ button:hover {
     border: 1px solid black;
 }
 
-footer{
+
+.visits {
+    color: gray;
+}
+
+aside{
+    padding: 15px;
+    background-color: rgba(125, 133, 161, 0.774);
+}
+
+aside a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+aside p{
+    margin: 5pt;
+}
+
+footer {
     background-color: rgb(0, 54, 99);
     text-align: center;
     color: #fff;
+    padding: 15px;
 }
 
-footer picture img{
+footer picture img {
     width: 100%;
     padding: 5px;
 }
+
+.weather {
+    background-color: rgba(121, 99, 45, 0.466);
+    margin: 25px 0px 25px 0px;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.weather h2 {
+    text-decoration: underline;
+}
+
+.footerImg02 img {
+    border: 1px green ridge;
+    width: 100%;
+}	
 
 .contact {
     padding: 15px;
@@ -133,7 +194,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li:first-child{
+nav ul li:first-child {
     display: block;
 }
 
@@ -155,7 +216,7 @@ nav ul li a {
     display: block;
 }
 
-nav a:hover{
+nav a:hover {
     background-color:  rgb(0, 54, 99);
     color: white;
 }
@@ -166,13 +227,13 @@ ul {
     padding: 0px;
 }
 
-#toggleMenu{
+#toggleMenu {
     cursor: pointer;
     color: blue;
     font-size: 25px;
     text-align: left;
 }
 
-.socialMedia img{
+.socialMedia img {
     margin: 10px;
 }
