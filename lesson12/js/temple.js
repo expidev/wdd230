@@ -1,5 +1,5 @@
 //function to create the temple card
-const requestURL='../data.json';
+const requestURL='../data/data.json';
 function templeCard() {
     fetch(requestURL).then(function (response) {
       return response.json();
