@@ -1,5 +1,5 @@
 //function to create the temple card
-const requestURL='https://github.com/Nas-hash-source/wdd230/lesson12/data.json';
+const requestURL='../data.json';
 function templeCard() {
     fetch(requestURL).then(function (response) {
       return response.json();
