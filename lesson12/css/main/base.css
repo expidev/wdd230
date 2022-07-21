@@ -122,5 +122,6 @@ footer address img {
 }
 
 #map {
-	width:100%;
+	width:70%;
+	overflow:auto;
 }
