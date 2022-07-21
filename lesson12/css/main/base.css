@@ -120,3 +120,7 @@ footer address {
 footer address img {
     width: 20px;
 }
+
+#map {
+	width:100%;
+}
