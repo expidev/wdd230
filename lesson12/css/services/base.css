@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+main li {
+    list-style:circle;
+    line-height: 19pt;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+#services li {
+    list-style:none;
+    line-height: 19pt;
+    font-size: 17pt;
+    padding: 0;
+    margin: 0;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 23pt;
+}
+
+main h2 {
+    font-size: 18pt;
+    padding: 25px;
+    margin: auto;
+    font-weight: bold;
+}
+
+main ul:first-child li{
+    font-size: 18pt;
+}
+
+section:first-child {
+    border: 1px burlywood solid;
+    margin: 15px auto 50px auto;
+}
+
+section {
+    width: 100%;
+}
+
+section img {
+    width: 100%;
+    max-height: 450px;
+    margin: auto;
+}
+
+section ul {
+    margin-bottom: 50px;;
+}
+
+#services li a{
+    display: block;
+    background-color: burlywood;
+    font-size: 15pt;
+    padding : 20px;
+    text-decoration: none;
+    margin: auto;
+    border: 1px rgb(185, 155, 115) ridge;
+}
+
+#services li a:hover {
+    background-color: rgb(124, 107, 23);
+    color: white;
+}
+
+#services ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+#services li {
+    font-size: 15pt;
+}
+
+
+input:invalid {
+    border: 1px red solid;
+}
+
+input:valid {
+    border: 1px rgba(135, 209, 135, 0.904) solid;
+}
+
+label, input{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: 11%;
+    max-width: 400px;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    display: block;
+    margin-left: 11%;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+form {
+    padding: 20px;
+}
+
+button {
+    width: 80%;
+    height: 3rem;
+    padding: 0.3em 0;
+    font-size: 1.1em;
+    background-color: burlywood;
+    border-radius: 15%;
+    margin: 15px auto auto 11%;
+    border: 1px black ridge;
+    max-width: 400px;
+
+}
+
+
+button:hover {
+    background-color:  rgb(124, 107, 23);
+    color: white;
+    border-radius: 15%;
+}

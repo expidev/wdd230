@@ -1,0 +1,23 @@
+@media (min-width: 750px) {
+
+#templeCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+section {
+    position: relative;
+    height: 100%;
+}
+
+section button {
+    position: absolute;
+    top: 97%;
+    width: 90%;
+    right: 5%;
+    margin: auto;
+}
+
+}

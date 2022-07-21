@@ -1,0 +1,65 @@
+
+input:invalid {
+    border: 1px red solid;
+}
+
+input:valid {
+    border: 1px rgba(135, 209, 135, 0.904) solid;
+}
+
+label, input, select {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: 11%;
+    max-width: 400px;
+}
+
+#dateInput {
+    width: 100px;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    display: block;
+    margin-left: 11%;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+form {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 23pt;
+    color: rgb(134, 97, 48);
+}
+
+button {
+    width: 80%;
+    height: 3rem;
+    padding: 0.3em 0;
+    font-size: 1.1em;
+    background-color: burlywood;
+    border-radius: 15%;
+    margin: 15px auto auto 11%;
+    border: 1px black ridge;
+    max-width: 400px;
+
+}
+
+
+button:hover {
+    background-color:  rgb(124, 107, 23);
+    color: white;
+    border-radius: 15%;
+}
