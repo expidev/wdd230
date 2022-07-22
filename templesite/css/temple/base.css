@@ -28,13 +28,13 @@ section img:last-child {
 }
 
 section h2 {
-    font-family: 19pt;
+    font-size: 19pt;
     text-align: center;
     margin: 25px auto 25px auto;
 }
 
 .heading {
-    font-family: 18pt;
+    font-size: 18pt;
     text-align: center;
     margin: 50px auto 50px auto;
     font-style: normal;
