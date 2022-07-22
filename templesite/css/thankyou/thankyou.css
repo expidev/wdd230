@@ -5,6 +5,12 @@ main {
     margin: auto;
 }
 
+footer h2 {
+    color: black;
+    font-size: 13pt;
+    margin-bottom: 15px;
+}
+
 @media (min-width: 1000px) {
     body {
         display: grid;
