@@ -1,3 +1,7 @@
+main {
+    padding: 15px
+}
+
 @media (min-width: 700px) {
     main {
         display: grid;
