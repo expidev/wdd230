@@ -1,5 +1,9 @@
 main {
-    padding: 15px
+    padding: 15px;
+}
+
+main img {
+    width: 190%;
 }
 
 @media (min-width: 700px) {
