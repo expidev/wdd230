@@ -1,5 +1,4 @@
 //Current Date
-const currentDate = new Date();
 let dayWeeks = [
     "Sunday",
     "Monday",
