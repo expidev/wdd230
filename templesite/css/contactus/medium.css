@@ -1,0 +1,19 @@
+@media (min-width: 750px) {
+    main section h2 {
+        margin-left: 32%;
+        margin-top: 100px;
+    }
+
+    label, input{
+        display: block;
+        width: 80%;
+        height: 30px;
+        margin-left: 25%;
+        max-width: 400px;
+    }
+
+    textarea, button {
+        margin-left: 25%;
+    }
+
+}

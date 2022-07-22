@@ -1,0 +1,54 @@
+{
+    "temple": [
+        {
+            "order":1,
+            "name": "Dallas Texas Temple",
+            "address": ["6363 Willow Ln Dallas","TX 75230-2227","United States"],
+            "telephone":"(1)972-991-1273",
+            "img":"images/dallas-texas.jpg",
+            "services":["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+            "history":["1 April 1981 : Announced","22 January 1983 : Groundbreaking","19 October 1984 : Dedicated — dedicatory prayer","5 March 1989 : Rededicated — dedicatory prayer"],
+            "ordinanceSchedule":"Please call the temple.",
+            "sessionSchedule":"Please call the temple.",
+            "templeClosureSchedule":[{"twentyTwo": ["Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]}, {"twentyThree": ["Monday, 24 April 2023 - Monday, 8 May 2023","Monday, 23 October 2023 - Monday, 6 November 2023"]}]
+        },
+        {
+            "order":2,
+            "name": "Denver Colorado Temple",
+            "telephone":"(1) 303-730-0220",
+            "address": ["2001 E Phillips Cir","Centennial CO 80122-3264","United States"],
+            "img":"images/denver-colorado.jpg",
+            "services":["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+            "history":["31 March 1982 : Announced","19 May 1984 : Groundbreaking","24 October 1986 : Dedicated — dedicatory prayer"],
+            "ordinanceSchedule":"Please call the temple.",
+            "sessionSchedule":"Please call the temple.",
+            "templeClosureSchedule" : [{"twentyTwo":["Monday, 12 September 2022 - Monday, 31 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022 (Limited Operations)"]},{"twentyThree":["Saturday, 1 April 2023","Monday, 3 April 2023 - Monday, 17 April 2023","Tuesday, 4 July 2023","Monday, 11 September 2023 - Monday, 25 September 2023","Saturday, 30 September 2023","Wednesday, 22 November 2023 (Limited Operations)","Thursday, 23 November 2023"]}]
+        }, 
+        {
+            "order":3,
+            "name": "Draper Utah Temple",
+            "address": ["14065 Canyon Vista Ln","Draper UT 84020-5626","United States"],
+            "telephone":"(1) 801-576-4240",
+            "img":"images/draper-utah.jpg",
+            "services":["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+            "history":["October 2004 : Announced","August 2006 : Groundbreaking","March 2009 : Dedicated — dedicatory prayer"],
+            "ordinanceSchedule":"Please call the temple.",
+            "sessionSchedule":"Please call the temple.",
+            "templeClosureSchedule" : [{"twentyTwo":["Monday, 29 August 2022 - Monday, 12 September 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]},{"twentyThree": ["Monday, 23 January 2023 - Monday, 6 February 2023","Monday, 24 July 2023 - Monday, 7 August 2023"]}]
+        },
+        {
+            "order":4,
+            "name": "Fresno California Temple",
+            "address": ["6290 N Valentine Ave","Fresno CA 93711","United States"],
+            "telephone":"(1) 559-437-9451",
+            "img":"images/fresno-california.jpg",
+            "services":["No Clothing rental available","No cafeteria available","No patron housing available","No Distribution center nearby"],
+            "history":["8 January 1999 : Announced","20 March 1999 : Groundbreaking","9 April 2000 : Dedicated — dedicatory prayer"],
+            "ordinanceSchedule":"Please call the temple.",
+            "sessionSchedule":"Please call the temple.",
+            "templeClosureSchedule" : [{"twentyTwo":["Monday, 26 September 2022 - Monday, 10 October 2022","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022","Saturday"]},{"twentyThree":["Monday, 1 May 2023 - Monday, 15 May 2023"]}]
+        }
+        
+    ]
+}
+

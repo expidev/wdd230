@@ -1,0 +1,69 @@
+
+main h1 {
+    font-size: 23pt;
+}
+
+
+section {
+    border: 1px burlywood solid;
+    width: 100%;
+    max-width: 450px;
+    margin: 40px auto 50px auto;
+    padding: 20px;
+    line-height: 13pt;
+}
+
+section img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    
+}
+
+section img:last-child {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: burlywood;
+}
+
+section h2 {
+    font-family: 19pt;
+    text-align: center;
+    margin: 25px auto 25px auto;
+}
+
+.heading {
+    font-family: 18pt;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    font-style: normal;
+}
+
+section h3 {
+    text-align: center;
+    background-color: burlywood;
+    padding: 5px;
+}
+
+section p, h4 {
+    margin-left: 25px;
+}
+
+main h4 {
+    text-decoration: underline;
+}
+
+section button {
+    width: 100%;
+    background-color: rgb(146, 116, 52);
+    padding: 0.3em 0;
+    color: black;
+    font-size: 1.1em;
+    border: 1px black ridge;
+}
+
+section button:hover {
+    background-color: burlywood;
+    color: purple;
+}

@@ -1,0 +1,103 @@
+/*main*/
+
+#hero picture img {
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+#hero button {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    padding: 0.3em 0;
+    bottom: 3em;
+    left: 45%;
+    font-size: 1.1em;
+    background-color: burlywood;
+    border-radius: 15%;
+    border: 1px black ridge;
+    color: black;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, .5);
+}
+
+#hero button:hover {
+    background-color:  rgb(124, 107, 23);
+    color: white;
+}
+
+
+#hero a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+#hero a:hover {
+    color:purple;
+}
+
+.heroContainer {
+    position: relative;
+}
+
+section p, aside {
+    padding: 0 15px 0 15px;
+    line-height: 19pt;
+    font-size: 13pt;
+}
+
+.templeContainer {
+    border: 1px burlywood solid;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    line-height: 19pt;
+}
+
+.templeContainer img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.templeContainer h3 {
+    text-align: center;
+}
+
+.templeContainer button {
+    width: 100%;
+    background-color: burlywood;
+    padding: 0.3em 0;
+    color: black;
+    font-size: 1.1em;
+    border: 1px black ridge;
+}
+
+.templeContainer button:hover {
+    background-color:  rgb(124, 107, 23);
+    color: white;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 10px;
+    align-items: center;
+}
+
+
+#currentWeather, #forecastWeather {
+    background-color: burlywood;
+    max-width: 250px;
+    min-width: 200px;
+    height: 380px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px grey ridge;
+}
+
+#currentWeather h2, #forecastWeather h2 {
+    color: rgb(61, 27, 61);
+    margin: 15px;
+}

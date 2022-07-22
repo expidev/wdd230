@@ -1,0 +1,71 @@
+input:invalid {
+    border: 1px red solid;
+}
+
+input:valid {
+    border: 1px rgba(135, 209, 135, 0.904) solid;
+}
+
+main h2 {
+    margin-left: 13%;
+}
+
+label, input{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: 11%;
+    max-width: 400px;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    display: block;
+    margin-left: 11%;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+form {
+    padding: 20px;
+}
+
+button {
+    width: 80%;
+    height: 3rem;
+    padding: 0.3em 0;
+    font-size: 1.1em;
+    background-color: burlywood;
+    border-radius: 15%;
+    margin: 15px auto auto 11%;
+    border: 1px black ridge;
+    max-width: 400px;
+
+}
+
+
+button:hover {
+    background-color:  rgb(124, 107, 23);
+    color: white;
+    border-radius: 15%;
+}
+
+@media (min-width: 750px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    main section {
+        grid-column: 2/3;
+    }
+
+}

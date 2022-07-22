@@ -1,0 +1,18 @@
+@media (min-width: 1000px) {
+    main {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding-right: 25px;
+    }
+
+    #services {
+        grid-column: 1/3;
+    }
+
+    main section img {
+        width: 90%;
+        float: none;
+        margin-left: 25px;
+    }
+}
