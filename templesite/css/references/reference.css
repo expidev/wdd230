@@ -2,8 +2,12 @@ main {
     padding: 15px;
 }
 
+main div {
+margin: auto;
+}
+
 main img {
-    width: 190%;
+    width: 90%;
 }
 
 @media (min-width: 700px) {
