@@ -1,5 +1,5 @@
 //function to create the temple card
-const requestURL='https://nas-hash-source.github.io/wdd230/templesite/data/data.json';
+const requestURL='https://expidev.github.io/wdd230/templesite/data/data.json';
 function templeCard() {
     fetch(requestURL).then(function (response) {
       return response.json();
